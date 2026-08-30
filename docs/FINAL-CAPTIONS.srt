@@ -1,0 +1,135 @@
+1
+00:00:00,000 --> 00:00:04,948
+AI can already find a stylist's portfolio, reviews, prices, and services.
+
+2
+00:00:04,948 --> 00:00:09,895
+But none of those tells an agent how the stylist thinks.
+
+3
+00:00:09,895 --> 00:00:14,843
+A finished image shows the result, not what the stylist protected,
+
+4
+00:00:14,843 --> 00:00:20,177
+what they refused, or why a constraint became part of the design.
+
+5
+00:00:20,177 --> 00:00:24,738
+The Mirror is a professional-discovery experiment built around judgment evidence.
+
+6
+00:00:24,738 --> 00:00:31,618
+It uses WebMCP—a way for a website to offer structured tools directly to an AI agent.
+
+7
+00:00:31,618 --> 00:00:38,885
+Our visitor says: “I need to wear my hair up at work and can't look too dramatic,
+
+8
+00:00:38,885 --> 00:00:45,378
+but outside work I don't want to feel boring. I also don't want frequent maintenance.
+
+9
+00:00:45,378 --> 00:00:51,485
+Can you help me decide whether this stylist might understand what I'm looking for?”
+
+10
+00:00:51,485 --> 00:00:57,593
+The first tool returns strong fit evidence: designed visibility, identity boundaries, and low-maintenance thinking.
+
+11
+00:00:57,593 --> 00:01:00,607
+It surfaces two relevant historical cases.
+
+12
+00:01:00,607 --> 00:01:04,009
+The agent is not choosing a hairstyle.
+
+13
+00:01:04,009 --> 00:01:11,276
+It is finding evidence that this stylist has previously reasoned about the same kind of human problem.
+
+14
+00:01:11,276 --> 00:01:14,677
+Next, the agent opens public case zero-zero-three.
+
+15
+00:01:14,677 --> 00:01:22,330
+The context is practical: the client's hair had to be worn up at work without looking too dramatic.
+
+16
+00:01:22,330 --> 00:01:25,345
+But the underlying need was psychological.
+
+17
+00:01:25,345 --> 00:01:32,225
+She did not want to choose between a professional identity and a more playful private self.
+
+18
+00:01:32,225 --> 00:01:37,173
+SunSun's judgment was to treat visibility itself as a design variable.
+
+19
+00:01:37,173 --> 00:01:44,053
+A restrained outer layer could support expression inside, while movement, distance, and wearing the hair down
+
+20
+00:01:44,053 --> 00:01:47,068
+changed how that expression was discovered.
+
+21
+00:01:47,068 --> 00:01:50,469
+A portfolio image could show the colour.
+
+22
+00:01:50,469 --> 00:01:54,644
+The tool exposes why the colour was placed there.
+
+23
+00:01:54,644 --> 00:01:58,432
+Finally, the agent builds a pre-consultation intent brief.
+
+24
+00:01:58,432 --> 00:02:03,379
+It records the professional and private identity tension, the low-maintenance preference,
+
+25
+00:02:03,379 --> 00:02:08,713
+the desired visibility, the cases that resonated, and the questions still unresolved.
+
+26
+00:02:08,713 --> 00:02:12,888
+It does not produce a formula or technical plan.
+
+27
+00:02:12,888 --> 00:02:18,222
+It helps the visitor understand why this professional may be worth consulting.
+
+28
+00:02:18,222 --> 00:02:25,875
+At home, neither the visitor nor the agent can reliably verify strand integrity, chemical history, or achievable lift.
+
+29
+00:02:25,875 --> 00:02:30,823
+So past hair conditions are evidence of how SunSun made decisions—
+
+30
+00:02:30,823 --> 00:02:34,224
+not a template for diagnosing a stranger.
+
+31
+00:02:34,224 --> 00:02:38,399
+The actual technical plan still requires an in-person assessment.
+
+32
+00:02:38,399 --> 00:02:41,800
+The Mirror does not choose your hair.
+
+33
+00:02:41,800 --> 00:02:44,815
+It reveals how the stylist thinks.
+
+34
+00:02:44,815 --> 00:02:47,830
+The Mirror makes professional judgment machine-readable.
