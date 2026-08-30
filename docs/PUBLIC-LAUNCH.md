@@ -1,12 +1,12 @@
 # The Mirror — Public Launch Kit
 
-Public infrastructure is live. Social launch materials remain unpublished.
+Public infrastructure and the final demo are live. Social launch materials remain unpublished.
 
 ## Public assets
 
 - Live URL: [https://the-mirror-webmcp.netlify.app/](https://the-mirror-webmcp.netlify.app/)
 - GitHub repository: [https://github.com/SunSunnnnnn/the-mirror-webmcp](https://github.com/SunSunnnnnn/the-mirror-webmcp)
-- YouTube demo: `[placeholder]`
+- YouTube demo: [https://youtu.be/mg1tr0RqEpQ](https://youtu.be/mg1tr0RqEpQ)
 
 ## One-sentence pitch
 
@@ -57,6 +57,8 @@ Live: https://the-mirror-webmcp.netlify.app/
 
 Source: https://github.com/SunSunnnnnn/the-mirror-webmcp
 
+Demo: https://youtu.be/mg1tr0RqEpQ
+
 ### 2. General professional / creative audience
 
 When AI helps someone find a professional, it can see portfolios, reviews, prices, and services. But those signals do not explain how the person makes decisions when the real situation is uncertain, constrained, or emotionally complicated.
@@ -78,3 +80,5 @@ Live: https://the-mirror-webmcp.netlify.app/
 在线体验：https://the-mirror-webmcp.netlify.app/
 
 项目源码：https://github.com/SunSunnnnnn/the-mirror-webmcp
+
+演示视频：https://youtu.be/mg1tr0RqEpQ

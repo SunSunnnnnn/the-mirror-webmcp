@@ -12,6 +12,10 @@ Explore the public experiment at [the-mirror-webmcp.netlify.app](https://the-mir
 
 Source and the anonymized public sample are available in the [public GitHub repository](https://github.com/SunSunnnnnn/the-mirror-webmcp).
 
+## Demo Video
+
+Watch the final public demo: [The Mirror — Making Professional Judgment Machine-Readable with WebMCP](https://youtu.be/mg1tr0RqEpQ).
+
 ## The problem
 
 AI can already find portfolios, reviews, prices, and services. It usually cannot inspect **how a professional makes decisions**.
