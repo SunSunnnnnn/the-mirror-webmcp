@@ -1,0 +1,27 @@
+{
+  "name": "explore_stylist_fit",
+  "status": "public_sample_mvp",
+  "read_only": true,
+  "purpose": "Assess whether SunSun's documented judgment approach has relevant public evidence for the visitor, including reasons the fit may be weak or unclear.",
+  "input_schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Explore SunSun Stylist Fit",
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["desired_change", "desired_experience", "experiences_to_avoid"],
+    "properties": {
+      "desired_change": {"type": "array", "items": {"type": "string"}},
+      "desired_experience": {"type": "array", "items": {"type": "string"}},
+      "experiences_to_avoid": {"type": "array", "items": {"type": "string"}},
+      "maintenance_willingness": {"type": ["string", "null"]},
+      "visibility_boundary": {"type": ["string", "null"]},
+      "work_and_life_constraints": {"type": "array", "items": {"type": "string"}},
+      "identity_expression": {"type": "array", "items": {"type": "string"}},
+      "experimental_openness": {"type": ["string", "null"]},
+      "reference_concerns": {"type": "array", "items": {"type": "string"}},
+      "self_reported_chemical_history": {"type": ["string", "null"], "description": "Unverified background only."},
+      "user_uncertainty": {"type": "array", "items": {"type": "string"}}
+    }
+  },
+  "output_schema": {"type": "object", "required": ["fit_assessment", "relevant_judgment_dimensions", "why_sunsun_may_fit", "why_sunsun_may_not_fit", "relevant_cases", "match_stage_questions", "requires_in_person_assessment", "cannot_conclude_remotely"]}
+}

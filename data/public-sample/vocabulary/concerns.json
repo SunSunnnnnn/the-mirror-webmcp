@@ -1,0 +1,18 @@
+{
+  "version": "public-sample-v1",
+  "concerns": {
+    "low_maintenance": ["不经常补染", "低频", "维护", "补染", "回访"],
+    "long_return_interval": ["一年后", "约一年", "半年后", "低频", "回访"],
+    "work_visibility_constraint": ["上班", "工作", "扎发", "不能夸张", "工作状态"],
+    "private_public_identity_conflict": ["私人", "私下", "身份", "公共自我", "私人自我", "个性"],
+    "fear_of_yellow_or_orange_fade": ["黄色", "橘黄色", "黄橙", "偏黄", "偏橙"],
+    "self_reported_old_bleach_history": ["旧漂", "漂过", "漂染历史", "旧浅"],
+    "self_reported_damaged_hair_constraint": ["受损", "不能继续提浅", "牺牲发质", "保护发质"],
+    "grow_out_concern": ["布丁头", "新生发", "发根", "长出", "过渡"],
+    "strong_expression": ["强烈", "醒目", "个性", "设计感"],
+    "hidden_expression": ["隐藏", "低可见", "靠近", "移动", "内层"],
+    "experimental_openness": ["实验", "探索", "可能性", "挑战", "愿意"],
+    "previous_work_as_material": ["前次", "上次", "回访", "体验基线", "previous work"],
+    "constraint_transformed_into_design": ["限制", "转化", "取代", "纳入", "设计材料", "停止追浅"]
+  }
+}

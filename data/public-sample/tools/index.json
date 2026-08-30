@@ -1,0 +1,11 @@
+{
+  "version": "public-sample-v1",
+  "status": "four_tool_public_demo",
+  "tools": [
+    {"name": "search_works", "path": "./search_works.contract.json"},
+    {"name": "get_work_details", "path": "./get_work_details.contract.json"},
+    {"name": "explore_stylist_fit", "path": "./explore_stylist_fit.contract.json"},
+    {"name": "build_consultation_brief", "path": "./build_consultation_brief.contract.json"}
+  ],
+  "not_included": ["find_similar_works"]
+}

@@ -1,0 +1,14 @@
+{
+  "boundary_id": "public-sample-system-boundary-001",
+  "name": "Remote Physical Uncertainty Boundary",
+  "authority_status": "confirmed_by_sunsun",
+  "version": "public-sample-v1",
+  "principle_zh": "在访客尚未接受现场专业检查时，不依据其自述对头发真实物理状况作确定性技术判断。公开案例用于证明 SunSun 如何处理真实问题，不证明陌生访客可以复制相同结果。",
+  "visitor_self_report_role": "self_reported_consultation_background",
+  "historical_case_role": "professional_judgment_evidence",
+  "historical_case_not_role": "remote_diagnostic_template",
+  "cannot_conclude_remotely": ["actual_strand_tolerance", "achievable_lift_level", "true_damage_risk", "case_replicability", "specific_technical_route", "formula_or_chemical_plan"],
+  "requires_in_person_assessment": ["actual_hair_integrity", "chemical_history_verification", "regional_damage_distribution", "wet_hair_elasticity", "pigment_buildup", "lift_feasibility", "scalp_and_strand_condition", "technical_plan"],
+  "allowed_remote_uses": ["理解 SunSun 的设计判断方式", "判断 stylist-fit", "整理到店前意图"],
+  "required_output_behavior": ["物理 unknown 留给现场", "案例匹配携带不可复制警告", "brief 携带固定不承诺声明", "只追问 match-stage unknown"]
+}

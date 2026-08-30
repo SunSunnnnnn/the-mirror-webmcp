@@ -1,0 +1,28 @@
+{
+  "name": "build_consultation_brief",
+  "status": "public_sample_mvp",
+  "read_only": true,
+  "purpose": "Create a non-persistent pre-consultation intent brief while leaving every physical and technical decision for in-person assessment.",
+  "input_schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Build Pre-consultation Intent Brief",
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["client_intention", "stated_request", "desired_change", "things_to_avoid"],
+    "properties": {
+      "client_intention": {"type": "string"},
+      "stated_request": {"type": "array", "items": {"type": "string"}},
+      "underlying_need": {"type": "array", "items": {"type": "string"}},
+      "desired_change": {"type": "array", "items": {"type": "string"}},
+      "desired_experience": {"type": "array", "items": {"type": "string"}},
+      "things_to_avoid": {"type": "array", "items": {"type": "string"}},
+      "lifestyle_constraints": {"type": "array", "items": {"type": "string"}},
+      "maintenance_willingness": {"type": ["string", "null"]},
+      "visibility_and_identity_boundary": {"type": ["string", "null"]},
+      "relevant_case_reactions": {"type": "array", "items": {"type": "object", "required": ["work_id", "why_it_resonated"], "properties": {"work_id": {"type": "string", "pattern": "^public-case-[0-9]{3}$"}, "why_it_resonated": {"type": "string"}}}},
+      "unresolved_personal_questions": {"type": "array", "items": {"type": "string"}},
+      "self_reported_chemical_history": {"type": ["string", "null"], "description": "Unverified background only."}
+    }
+  },
+  "output_schema": {"type": "object", "required": ["brief_type", "intention", "underlying_need", "desired_experience", "avoided_experience", "lifestyle_and_identity_context", "relevant_sunsun_cases", "match_stage_questions", "requires_in_person_assessment", "explicit_uncertainty_statement", "technical_promise_notice"]}
+}

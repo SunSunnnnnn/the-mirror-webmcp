@@ -1,0 +1,293 @@
+{
+  "client_journey": {
+    "client_id": "anonymous-journey-02",
+    "intervention_number": 1,
+    "previous_work_id": null,
+    "next_work_id": null,
+    "time_since_previous_intervention": null,
+    "what_previous_design_enabled": []
+  },
+  "context": {
+    "hair_context": {
+      "status": "generalized",
+      "current_base": [
+        "旧漂与覆盖染后的复杂底色"
+      ],
+      "previous_chemical_history": [
+        "既往漂染与覆盖染"
+      ],
+      "damaged_areas": [
+        "部分区域曾无法安全继续提浅"
+      ],
+      "new_growth": [],
+      "uneven_color": [
+        "历史现场出现区域不均"
+      ],
+      "pigment_buildup": [
+        "历史现场确认存在色素沉淀"
+      ],
+      "reusable_existing_lightness": [
+        "较安全区域的已有浅度"
+      ],
+      "known_risks": [
+        "继续追求全区均匀会越过完整性边界"
+      ],
+      "unknown_risks": [
+        "陌生访客的同类自述不能证明具有相同风险或可行性"
+      ]
+    },
+    "life_context": {
+      "status": "anonymized_partial",
+      "work_environment": [],
+      "wearing_habits": [
+        "会有扎发状态"
+      ],
+      "maintenance_frequency": null,
+      "budget_constraint": null,
+      "visibility_constraint": [],
+      "return_frequency": null,
+      "lifestyle_limitations": []
+    },
+    "psychological_context": {
+      "status": "anonymized_confirmed",
+      "stated_request": [
+        "希望得到浅色粉调效果"
+      ],
+      "underlying_need": [
+        "不牺牲剩余发质仍保留颜色表达",
+        "让区域差异成为层次"
+      ],
+      "desired_change": [
+        "从复杂旧底进入有意图的分区设计"
+      ],
+      "desired_impression": [
+        "粉调与层次"
+      ],
+      "wants_to_avoid": [
+        "为漂匀而继续伤害头发",
+        "把不均只当作失败"
+      ],
+      "experimental_openness": "接受由安全限制生成的新结构。",
+      "visibility_tolerance": "接受不同状态下出现不同层次。",
+      "identity_concerns": []
+    }
+  },
+  "design_problem": {
+    "status": "anonymized_confirmed",
+    "summary_zh": "目标需要均匀浅底，但历史现场确认部分区域无法在不牺牲发质的情况下继续提浅；设计必须停止消除限制，并将区域差异重组为有意层次。",
+    "tensions": [
+      "均匀浅底目标 vs 发质完整性",
+      "旧底不均 vs 完整设计结构"
+    ],
+    "must_solve": [
+      "在安全边界停止追浅",
+      "让无法消除的区域差异成为结构"
+    ],
+    "not_the_real_problem": [
+      "不是不计代价把所有区域做到相同浅度"
+    ]
+  },
+  "underlying_need": {
+    "status": "anonymized_confirmed",
+    "priority": "high",
+    "stated_request": [
+      "浅色粉调"
+    ],
+    "underlying_need": [
+      "在保护发质的同时仍有完整表达"
+    ],
+    "evidence": [
+      "历史方案在停止继续提浅后仍保留颜色愿望并建立层次"
+    ]
+  },
+  "productive_constraints": {
+    "status": "anonymized_confirmed",
+    "items": [
+      {
+        "constraint": "部分区域无法安全继续提浅",
+        "accepted_not_eliminated": true,
+        "converted_into": "上浅下深的两级色彩结构",
+        "safety_boundary": "停止为追求均匀浅底而继续漂色"
+      }
+    ]
+  },
+  "judgment": {
+    "status": "anonymized_confirmed",
+    "preserve": [
+      "剩余发质完整性",
+      "可安全使用的已有浅度",
+      "颜色表达愿望"
+    ],
+    "explore": [
+      "深浅分区",
+      "动作与扎发时的第二可见状态"
+    ],
+    "avoid": [
+      "为均匀结果继续追浅",
+      "把限制只视为失败"
+    ],
+    "constraints": [
+      "受损历史",
+      "色素沉淀",
+      "区域不均"
+    ],
+    "reasoning": [
+      "限制在安全底线内可以成为设计材料"
+    ],
+    "supported_dimensions": [
+      "hair_integrity",
+      "productive_constraints",
+      "technical_fidelity",
+      "designed_visibility",
+      "temporal_aesthetics"
+    ],
+    "supported_rule_ids": [
+      "public-rule-001",
+      "public-rule-002",
+      "public-rule-003",
+      "public-rule-005"
+    ]
+  },
+  "design_moves": {
+    "status": "anonymized_confirmed",
+    "visual_strategy": [
+      {
+        "move_id": "convert_uneven_base_into_two_level_design",
+        "description_zh": "将区域差异转成有意深浅结构。",
+        "why": "不均无需靠继续伤害被消除。"
+      }
+    ],
+    "placement_strategy": [
+      {
+        "move_id": "place_deeper_tone_in_constrained_region",
+        "description_zh": "在无法继续安全提浅的区域使用更深色调。",
+        "why": "顺应现场区域边界。"
+      }
+    ],
+    "color_strategy": [
+      {
+        "move_id": "use_depth_to_absorb_unevenness",
+        "description_zh": "以更深色调包容旧底差异。",
+        "why": "不依赖继续漂浅。"
+      }
+    ],
+    "integrity_strategy": [
+      {
+        "move_id": "stop_when_uniformity_requires_sacrifice",
+        "description_zh": "均匀结果要求牺牲发质时停止。",
+        "why": "hair integrity 优先。"
+      }
+    ],
+    "temporal_strategy": [
+      {
+        "move_id": "preserve_future_options_over_day_one_lightness",
+        "description_zh": "保留未来可能，不最大化当天浅度。",
+        "why": "设计面向长期。"
+      }
+    ],
+    "identity_strategy": [
+      {
+        "move_id": "make_constraint_visible_as_intentional_layer",
+        "description_zh": "让限制呈现为有意设计。",
+        "why": "保护愿望与尊严。"
+      }
+    ]
+  },
+  "hair_integrity": {
+    "status": "historical_only",
+    "known_risks": [
+      "历史案例现场确认存在受损与沉淀"
+    ],
+    "uncertain_risks": [
+      "访客实际发质、区域分布、色素沉淀与提浅能力"
+    ],
+    "acceptable_intervention": [
+      "历史现场安全边界内的分区处理"
+    ],
+    "refused_intervention": [
+      "牺牲发质继续追求全区均匀"
+    ],
+    "stop_condition": [
+      "历史现场确认继续均匀提浅会越过安全边界"
+    ],
+    "alternative_created": [
+      "深浅分区设计"
+    ]
+  },
+  "identity_expression": {
+    "status": "partial",
+    "public_self": [],
+    "private_self": [],
+    "desired_visibility": [
+      "放下与扎起出现不同层次"
+    ],
+    "tolerated_visibility": "可接受明显分区。",
+    "identity_boundary": [],
+    "boundary_change_since_previous_visit": []
+  },
+  "temporal_aesthetics": {
+    "status": "anonymized_confirmed",
+    "intended_evolution": [
+      "保留头发未来生长与修复可能"
+    ],
+    "actual_return_state": [],
+    "root_growth_behavior": [],
+    "fade_behavior": [
+      "未公开完整实际轨迹"
+    ],
+    "maintenance_expectation": null,
+    "what_previous_design_enabled": [],
+    "future_options": [
+      "避免当天过度提浅关闭未来选择"
+    ]
+  },
+  "visual_result": {
+    "status": "generalized",
+    "color_family": [
+      "浅粉",
+      "深粉紫"
+    ],
+    "temperature": "mixed-pink",
+    "saturation": "layered",
+    "contrast": "two-level",
+    "visual_intensity": "medium-high",
+    "distribution": [
+      "上浅下深的匿名化分区"
+    ],
+    "silhouette": [],
+    "visual_tags": [
+      "productive-constraint",
+      "hair-integrity",
+      "two-level-design"
+    ],
+    "summary_zh": "案例证明 SunSun 会在安全边界停止追浅，并将无法消除的区域差异变成设计材料。"
+  },
+  "media": {
+    "status": "not_included",
+    "images": []
+  },
+  "publication": {
+    "record": "public",
+    "client_story": "anonymized_only",
+    "face_images": "not_included",
+    "full_images": "not_included"
+  },
+  "provenance": {
+    "authority": "derived_from_sunsun_confirmed_record",
+    "review_status": "public_sample_derivative",
+    "inference_policy": "只概括已确认判断，不新增事实。"
+  },
+  "record_status": {
+    "decision_sufficient": true,
+    "technical_detail_optional": true,
+    "supported_judgment_scope": [
+      "hair_integrity",
+      "productive_constraints",
+      "temporal_aesthetics"
+    ],
+    "blocking_unknowns": [],
+    "non_blocking_unknowns": [
+      "全部技术参数、私人叙事和素材"
+    ]
+  }
+}

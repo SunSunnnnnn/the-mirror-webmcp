@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Mirror makes professional judgment inspectable by AI agents through WebMCP.">
+  <title>The Mirror — Professional judgment, machine-readable</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --ink: #f4f1e9;
+      --muted: #b6b0a4;
+      --line: #34322f;
+      --panel: #171716;
+      --accent: #d7ff5f;
+      --max: 70rem;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { background: #0d0d0c; color: var(--ink); scrollbar-width: none; }
+    html::-webkit-scrollbar { width: 0; height: 0; }
+    body { margin: 0; min-width: 18rem; line-height: 1.6; }
+    a { color: inherit; text-underline-offset: .2em; }
+    header, main, footer { width: min(calc(100% - 2rem), var(--max)); margin-inline: auto; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 1.25rem 0; border-bottom: 1px solid var(--line); }
+    .brand { font-weight: 750; letter-spacing: -.02em; }
+    .status { color: var(--muted); font-size: .82rem; }
+    .status::before { content: ""; display: inline-block; width: .55rem; height: .55rem; margin-right: .45rem; border-radius: 50%; background: var(--accent); }
+    main { padding: clamp(3.5rem, 9vw, 8rem) 0 5rem; }
+    .eyebrow { color: var(--accent); font-size: .8rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+    h1 { max-width: 12ch; margin: .65rem 0 1.3rem; font-size: clamp(3.25rem, 10vw, 8.2rem); line-height: .86; letter-spacing: -.075em; }
+    .lede { max-width: 44rem; margin: 0; color: var(--muted); font-size: clamp(1.15rem, 2vw, 1.55rem); }
+    .thesis { margin: clamp(3rem, 8vw, 6rem) 0; padding: clamp(1.5rem, 4vw, 3rem); border: 1px solid var(--line); background: var(--panel); font-size: clamp(1.35rem, 3vw, 2.25rem); line-height: 1.3; letter-spacing: -.025em; }
+    h2 { margin: 0 0 1.25rem; font-size: clamp(1.8rem, 4vw, 3rem); letter-spacing: -.04em; }
+    .tools { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+    article { min-height: 12rem; padding: 1.4rem; border: 1px solid var(--line); background: var(--panel); }
+    article code { color: var(--accent); font-size: .96rem; }
+    article p { color: var(--muted); }
+    .example { margin-top: clamp(3.5rem, 8vw, 6rem); }
+    blockquote { margin: 1.25rem 0; padding-left: 1.25rem; border-left: 3px solid var(--accent); color: var(--muted); font-size: 1.1rem; }
+    .boundary { margin-top: 2rem; color: var(--ink); }
+    footer { padding: 1.5rem 0 2.5rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
+    @media (max-width: 42rem) {
+      .tools { grid-template-columns: 1fr; }
+      header { align-items: flex-start; gap: 1rem; }
+      .status { max-width: 11rem; text-align: right; }
+      article { min-height: auto; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">The Mirror</div>
+    <div class="status" id="webmcp-status">Checking WebMCP support</div>
+  </header>
+  <main>
+    <section aria-labelledby="mirror-title">
+      <div class="eyebrow">Professional judgment · WebMCP</div>
+      <h1 id="mirror-title">How does the stylist think?</h1>
+      <p class="lede">A WebMCP experiment in making professional judgment machine-readable—not remotely diagnosing hair or choosing a style for you.</p>
+    </section>
+
+    <p class="thesis">The goal is not to help a visitor find a hairstyle. The goal is to help them understand whether they have found a hairstylist they can trust with the problem.</p>
+
+    <section aria-labelledby="tools-title">
+      <h2 id="tools-title">Four read-only tools</h2>
+      <div class="tools">
+        <article><code>search_works</code><p>Search real evidence of how SunSun has reasoned about similar tensions and constraints.</p></article>
+        <article><code>get_work_details</code><p>Inspect the judgment chain behind one anonymized historical case.</p></article>
+        <article><code>explore_stylist_fit</code><p>Evaluate whether SunSun's way of thinking appears relevant to what the visitor needs.</p></article>
+        <article><code>build_consultation_brief</code><p>Turn the conversation into a non-persistent intent brief for an in-person consultation.</p></article>
+      </div>
+    </section>
+
+    <section class="example" aria-labelledby="example-title">
+      <h2 id="example-title">A different kind of answer</h2>
+      <blockquote>“I need to wear my hair up at work and can't look too dramatic, but outside work I don't want to feel boring. I also don't want frequent maintenance.”</blockquote>
+      <p>The Mirror can find evidence about designed visibility, identity boundaries, and low-maintenance thinking.</p>
+      <p class="boundary"><strong>It does not prescribe a colour.</strong> Actual hair condition, technical feasibility, and the final plan remain matters for in-person assessment.</p>
+    </section>
+  </main>
+  <footer>
+    The Mirror · Software under MPL-2.0 · Public sample data under CC BY 4.0
+  </footer>
+  <script type="module" src="./webmcp/register-tools.js"></script>
+  <script type="module">
+    const status = document.querySelector("#webmcp-status");
+    const supported = typeof document.modelContext?.registerTool === "function";
+    status.textContent = supported ? "WebMCP interface available" : "Static fallback active";
+  </script>
+</body>
+</html>

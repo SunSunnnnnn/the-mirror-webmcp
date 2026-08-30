@@ -1,0 +1,25 @@
+{
+  "taxonomy_id": "public-sample-uncertainty-taxonomy-001",
+  "version": "public-sample-v1",
+  "classes": {
+    "discovery_stage_unknown": {
+      "definition_zh": "只能由现场观察、触摸、测试和化学历史核验确认的真实物理不确定性。",
+      "examples": ["actual_hair_integrity", "regional_damage_distribution", "wet_hair_elasticity", "overlapping_bleach_history", "pigment_buildup", "actual_lift_feasibility"],
+      "effect_on_stylist_fit": "does_not_block_initial_stylist_fit",
+      "effect_on_technical_claim": "blocks_all_technical_feasibility_claims",
+      "agent_action": "label_requires_in_person_assessment",
+      "may_ask_user": false,
+      "self_report_handling": "store_as_unverified_background_only"
+    },
+    "match_stage_unknown": {
+      "definition_zh": "访客可以通过自我表达补充，且会改变 stylist-fit 的不确定性。",
+      "examples": ["maintenance_willingness", "work_visibility_constraint", "usual_hair_wearing_state", "experience_to_avoid", "visibility_tolerance", "identity_expression", "experimental_openness"],
+      "effect_on_stylist_fit": "reduces_match_precision",
+      "effect_on_technical_claim": "never_enables_technical_claim",
+      "agent_action": "ask_concise_follow_up_question",
+      "may_ask_user": true,
+      "self_report_handling": "use_as_preference_and_lifestyle_input"
+    }
+  },
+  "guardrail": "Self-report never removes the in-person assessment requirement."
+}

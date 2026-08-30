@@ -1,0 +1,318 @@
+{
+  "client_journey": {
+    "client_id": "anonymous-journey-03",
+    "intervention_number": 2,
+    "previous_work_id": "public-case-003",
+    "next_work_id": null,
+    "time_since_previous_intervention": "约一年",
+    "what_previous_design_enabled": [
+      "前次多状态可见性设计建立了实际体验基线",
+      "访客能够更精确表达新的可见度边界"
+    ]
+  },
+  "context": {
+    "hair_context": {
+      "status": "not_published",
+      "current_base": [
+        "前次设计后的真实物理状态未公开"
+      ],
+      "previous_chemical_history": [
+        "存在前次设计历史"
+      ],
+      "damaged_areas": [],
+      "new_growth": [],
+      "uneven_color": [],
+      "pigment_buildup": [],
+      "reusable_existing_lightness": [],
+      "known_risks": [],
+      "unknown_risks": [
+        "回访时实际发质、旧染残留和技术可行性必须现场评估"
+      ]
+    },
+    "life_context": {
+      "status": "anonymized_confirmed",
+      "work_environment": [
+        "工作条件没有改变"
+      ],
+      "wearing_habits": [
+        "工作时仍需扎发",
+        "私人状态可披发"
+      ],
+      "maintenance_frequency": "约一年后回访",
+      "budget_constraint": null,
+      "visibility_constraint": [
+        "工作时可见一点但仍需熟悉、克制",
+        "私人状态可以更醒目"
+      ],
+      "return_frequency": "约一年",
+      "lifestyle_limitations": [
+        "工作条件持续存在"
+      ]
+    },
+    "psychological_context": {
+      "status": "anonymized_confirmed",
+      "stated_request": [
+        "希望扎发时也能看到一点效果"
+      ],
+      "underlying_need": [
+        "在生活条件不变时渐进放宽个性可见度",
+        "保留对边界的控制权"
+      ],
+      "desired_change": [
+        "从低可见推进到有限可见"
+      ],
+      "desired_impression": [
+        "工作时熟悉克制",
+        "私人状态更醒目"
+      ],
+      "wants_to_avoid": [
+        "跨过当前可接受边界",
+        "机械复制前次隐藏方案"
+      ],
+      "experimental_openness": "比前次更愿意提高公共可见性。",
+      "visibility_tolerance": "从接近隐藏提高到有限可见。",
+      "identity_concerns": [
+        "心理边界会随真实体验演化"
+      ]
+    }
+  },
+  "design_problem": {
+    "status": "anonymized_confirmed",
+    "summary_zh": "生活与工作条件未变，但访客经过长期体验后对可见性的心理边界放宽；回访设计不能把人或头发视为空白，而应以前次经验为材料，渐进提高表达。",
+    "tensions": [
+      "外部条件未变 vs 内在边界已变化",
+      "有限可见 vs 仍需工作场景熟悉感"
+    ],
+    "must_solve": [
+      "比较当下边界与前次基线",
+      "提高可见性但保留控制权"
+    ],
+    "not_the_real_problem": [
+      "不是因为工作没变就复制前次方案",
+      "不是单纯换一个新颜色"
+    ]
+  },
+  "underlying_need": {
+    "status": "anonymized_confirmed",
+    "priority": "high",
+    "stated_request": [
+      "扎发时可见一点"
+    ],
+    "underlying_need": [
+      "让外在表达随心理边界成长而渐进变化"
+    ],
+    "evidence": [
+      "真实回访中外部条件未变，但访客主动放宽可见度"
+    ]
+  },
+  "productive_constraints": {
+    "status": "anonymized_confirmed",
+    "items": [
+      {
+        "constraint": "工作条件持续存在，但可见性边界已变化",
+        "accepted_not_eliminated": true,
+        "converted_into": "工作状态可有限读取、私人状态更明显的双状态结构",
+        "safety_boundary": "不超过访客当下表达的容忍度"
+      }
+    ]
+  },
+  "judgment": {
+    "status": "anonymized_confirmed",
+    "preserve": [
+      "工作可接受性",
+      "访客对边界的控制权",
+      "前次实际体验"
+    ],
+    "explore": [
+      "从低可见到有限可见的渐进变化",
+      "熟悉视觉形式承载新增表达"
+    ],
+    "avoid": [
+      "忽略心理边界变化",
+      "从隐藏跳到无条件高曝光",
+      "把回访当成空白重做"
+    ],
+    "constraints": [
+      "工作条件未变",
+      "仍需扎发",
+      "只希望增加一点可见性"
+    ],
+    "reasoning": [
+      "previous work 是下一次设计材料",
+      "可见性是连续变量"
+    ],
+    "supported_dimensions": [
+      "previous_work_as_material",
+      "psychological_fit",
+      "identity_expression",
+      "designed_visibility",
+      "temporal_aesthetics"
+    ],
+    "supported_rule_ids": [
+      "public-rule-004",
+      "public-rule-007",
+      "public-rule-008"
+    ]
+  },
+  "design_moves": {
+    "status": "anonymized_confirmed",
+    "visual_strategy": [
+      {
+        "move_id": "translate_new_visibility_into_familiar_form",
+        "description_zh": "以工作场景可理解的熟悉形式承载新增可见度。",
+        "why": "表达增加但不取消原边界。"
+      }
+    ],
+    "placement_strategy": [
+      {
+        "move_id": "place_accent_for_dual_state_reading",
+        "description_zh": "让扎发与披发有不同读取。",
+        "why": "同一设计服务两种状态。"
+      }
+    ],
+    "color_strategy": [
+      {
+        "move_id": "use_controlled_visible_accent",
+        "description_zh": "使用有限局部对比。",
+        "why": "增加可见度但不推向无条件夸张。"
+      }
+    ],
+    "integrity_strategy": [
+      {
+        "move_id": "leave_return_visit_feasibility_unknown",
+        "description_zh": "不从回访故事推断技术可行性。",
+        "why": "每次 intervention 都需重新现场检查。"
+      }
+    ],
+    "temporal_strategy": [
+      {
+        "move_id": "increase_visibility_from_lived_baseline",
+        "description_zh": "以前次真实体验为基线渐进调整。",
+        "why": "回访不是从零开始。"
+      }
+    ],
+    "identity_strategy": [
+      {
+        "move_id": "expand_public_expression_without_erasing_boundary",
+        "description_zh": "在保留公共边界时增加一点表达。",
+        "why": "设计跟随心理成长。"
+      }
+    ]
+  },
+  "hair_integrity": {
+    "status": "unknown",
+    "known_risks": [
+      "存在前次化学处理历史"
+    ],
+    "uncertain_risks": [
+      "当次实际发质、旧染残留和区域承受力"
+    ],
+    "acceptable_intervention": [
+      "公开案例不提供技术参数"
+    ],
+    "refused_intervention": [
+      "用前次可行性替代本次现场检查"
+    ],
+    "stop_condition": [
+      "由当次现场评估决定"
+    ],
+    "alternative_created": [
+      "基于体验基线的渐进可见性设计"
+    ]
+  },
+  "identity_expression": {
+    "status": "anonymized_confirmed",
+    "public_self": [
+      "工作时仍需克制，但现在可接受一点可见表达"
+    ],
+    "private_self": [
+      "私人状态希望更醒目"
+    ],
+    "desired_visibility": [
+      "工作扎发时有限可见",
+      "披发时更明显"
+    ],
+    "tolerated_visibility": "比前次从低可见提高到有限可见。",
+    "identity_boundary": [
+      "工作状态仍需要熟悉、克制的视觉读取"
+    ],
+    "boundary_change_since_previous_visit": [
+      "外部条件未变，心理可见性容忍度提高"
+    ]
+  },
+  "temporal_aesthetics": {
+    "status": "anonymized_confirmed",
+    "intended_evolution": [
+      "设计可随心理边界长期演化",
+      "后续应比较当下与前次基线"
+    ],
+    "actual_return_state": [
+      "约一年后回访",
+      "工作条件未变但心理边界放宽"
+    ],
+    "root_growth_behavior": [
+      "不公开具体外观"
+    ],
+    "fade_behavior": [
+      "不公开未确认轨迹"
+    ],
+    "maintenance_expectation": "低频回访",
+    "what_previous_design_enabled": [
+      "前次设计建立可见性体验基线",
+      "长期体验使访客更清楚表达新边界"
+    ],
+    "future_options": [
+      "后续可继续按生活反馈微调"
+    ]
+  },
+  "visual_result": {
+    "status": "generalized",
+    "color_family": [
+      "自然深色",
+      "有限可见强调色"
+    ],
+    "temperature": "not_material",
+    "saturation": "localized",
+    "contrast": "controlled",
+    "visual_intensity": "state-dependent",
+    "distribution": [
+      "可被扎发与披发不同读取的局部结构"
+    ],
+    "silhouette": [],
+    "visual_tags": [
+      "previous-work-as-material",
+      "boundary-evolution",
+      "designed-visibility"
+    ],
+    "summary_zh": "案例证明回访设计会记住前次真实体验，并随心理边界变化渐进调整可见性。"
+  },
+  "media": {
+    "status": "not_included",
+    "images": []
+  },
+  "publication": {
+    "record": "public",
+    "client_story": "anonymized_only",
+    "face_images": "not_included",
+    "full_images": "not_included"
+  },
+  "provenance": {
+    "authority": "derived_from_sunsun_confirmed_record",
+    "review_status": "public_sample_derivative",
+    "inference_policy": "只概括已确认判断，不新增事实。"
+  },
+  "record_status": {
+    "decision_sufficient": true,
+    "technical_detail_optional": true,
+    "supported_judgment_scope": [
+      "previous_work_as_material",
+      "identity_expression",
+      "designed_visibility",
+      "temporal_aesthetics"
+    ],
+    "blocking_unknowns": [],
+    "non_blocking_unknowns": [
+      "全部真实物理发况、技术参数、私人叙事和素材"
+    ]
+  }
+}

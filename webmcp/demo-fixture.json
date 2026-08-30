@@ -1,0 +1,54 @@
+{
+  "scenario_id": "guangzhou-work-private-identity-low-maintenance",
+  "visitor_prompt_zh": "我在广州想找一个靠谱的染发师。我上班要扎头发，不能太夸张，但私下又不想太普通，而且我不想经常补染。",
+  "expected_agent_journey": [
+    {
+      "tool": "explore_stylist_fit",
+      "arguments": {
+        "desired_change": ["不再只是普通发色"],
+        "desired_experience": ["工作时克制，私下保留有趣的自己"],
+        "experiences_to_avoid": ["上班时太夸张", "频繁补染", "私下过于普通"],
+        "maintenance_willingness": "低频，不想经常补染",
+        "visibility_boundary": "上班扎发时不能太明显，私下可以更有存在感",
+        "work_and_life_constraints": ["在广州", "上班需要扎头发"],
+        "identity_expression": ["工作与私人状态需要不同程度的表达"],
+        "experimental_openness": "愿意了解不同设计结构"
+      },
+      "expected_case_ids": ["public-case-003", "public-case-004"]
+    },
+    {
+      "tool": "get_work_details",
+      "arguments": {
+        "work_id": "public-case-003",
+        "consumer_scope": "consultation_safe"
+      }
+    },
+    {
+      "tool": "build_consultation_brief",
+      "arguments": {
+        "client_intention": "判断 SunSun 是否值得进一步预约当面咨询",
+        "stated_request": ["上班不明显、私下不普通的低维护发色"],
+        "underlying_need": ["在工作合规和个人表达之间保留切换空间"],
+        "desired_change": ["从普通发色转为可设计可见度的表达"],
+        "desired_experience": ["工作时安心，私下有趣"],
+        "things_to_avoid": ["工作时太夸张", "频繁补染"],
+        "lifestyle_constraints": ["上班需要扎发"],
+        "maintenance_willingness": "低频",
+        "visibility_and_identity_boundary": "工作时克制，私下可见",
+        "relevant_case_reactions": [
+          {
+            "work_id": "public-case-003",
+            "why_it_resonated": "工作和私人身份不是二选一"
+          },
+          {
+            "work_id": "public-case-004",
+            "why_it_resonated": "可见性可以随心理边界渐进调整"
+          }
+        ],
+        "unresolved_personal_questions": []
+      }
+    }
+  ],
+  "expected_conclusion_zh": "SunSun 过去确实处理过类似的工作／私人身份冲突，并把可见性和低维护纳入设计判断；访客的真实发况和技术方案仍必须到店评估。",
+  "forbidden_conclusion_zh": "推荐你做粉色发箍染。"
+}

@@ -1,0 +1,54 @@
+{
+  "version": "public-sample-v1",
+  "scope": "minimum_public_rules_for_webmcp_demo",
+  "rules": [
+    {
+      "rule_id": "public-rule-001",
+      "name": "Hair integrity overrides requested result",
+      "dimension": "hair_integrity",
+      "principle_zh": "当目标结果与发质完整性冲突时，安全边界优先。"
+    },
+    {
+      "rule_id": "public-rule-002",
+      "name": "Unknown hair condition remains unknown",
+      "dimension": "uncertainty",
+      "principle_zh": "未经现场检查的真实物理发况必须保持 unknown。"
+    },
+    {
+      "rule_id": "public-rule-003",
+      "name": "Preserve future possibilities",
+      "dimension": "hair_integrity",
+      "principle_zh": "今天的设计应保留头发未来继续改变的可能。"
+    },
+    {
+      "rule_id": "public-rule-004",
+      "name": "Psychological fit outranks generic physical matching",
+      "dimension": "psychological_fit",
+      "principle_zh": "真正想获得、避免或表达的体验比通用外貌匹配更重要。"
+    },
+    {
+      "rule_id": "public-rule-005",
+      "name": "Constraints can become design material",
+      "dimension": "productive_constraints",
+      "principle_zh": "在安全底线内，限制可以成为设计结构的一部分。"
+    },
+    {
+      "rule_id": "public-rule-006",
+      "name": "Underlying need outranks literal request",
+      "dimension": "underlying_need",
+      "principle_zh": "颜色或技术名称不一定等于真正需求。"
+    },
+    {
+      "rule_id": "public-rule-007",
+      "name": "Visibility can be designed",
+      "dimension": "designed_visibility",
+      "principle_zh": "可见性可按工作、私人、扎发、披发、距离与动作被设计。"
+    },
+    {
+      "rule_id": "public-rule-008",
+      "name": "Previous work is part of the next design",
+      "dimension": "temporal_aesthetics",
+      "principle_zh": "回访设计应把前次处理、实际体验和边界变化视为下一次的材料。"
+    }
+  ]
+}

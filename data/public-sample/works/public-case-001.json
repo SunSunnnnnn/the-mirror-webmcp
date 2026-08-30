@@ -1,0 +1,271 @@
+{
+  "client_journey": {
+    "client_id": "anonymous-journey-01",
+    "intervention_number": 1,
+    "previous_work_id": null,
+    "next_work_id": null,
+    "time_since_previous_intervention": null,
+    "what_previous_design_enabled": []
+  },
+  "context": {
+    "hair_context": {
+      "status": "generalized",
+      "current_base": [
+        "存在既往居家染与局部旧漂历史"
+      ],
+      "previous_chemical_history": [
+        "未经公开的既往染漂历史"
+      ],
+      "damaged_areas": [],
+      "new_growth": [],
+      "uneven_color": [],
+      "pigment_buildup": [],
+      "reusable_existing_lightness": [
+        "现场曾确认存在可利用的浅底"
+      ],
+      "known_risks": [
+        "不同区域不能预设反应一致"
+      ],
+      "unknown_risks": [
+        "陌生访客的真实发质与化学历史必须重新现场核验"
+      ]
+    },
+    "life_context": {
+      "status": "not_material_to_public_case",
+      "work_environment": [],
+      "wearing_habits": [],
+      "maintenance_frequency": null,
+      "budget_constraint": null,
+      "visibility_constraint": [],
+      "return_frequency": null,
+      "lifestyle_limitations": []
+    },
+    "psychological_context": {
+      "status": "anonymized_confirmed",
+      "stated_request": [
+        "用深色结束当前困扰"
+      ],
+      "underlying_need": [
+        "避免再次经历不喜欢的偏黄或偏橙褪色"
+      ],
+      "desired_change": [
+        "摆脱不喜欢的后续色调体验"
+      ],
+      "desired_impression": [
+        "冷中性"
+      ],
+      "wants_to_avoid": [
+        "黄橙褪色体验"
+      ],
+      "experimental_openness": "在理解理由后愿意探索非字面路径。",
+      "visibility_tolerance": null,
+      "identity_concerns": [
+        "不希望因为厌恶某种褪色而只剩永久覆暗的选择"
+      ]
+    }
+  },
+  "design_problem": {
+    "status": "anonymized_confirmed",
+    "summary_zh": "字面上想用深色结束问题，但真正需要解决的是不想再经历黄橙褪色；设计判断必须先识别体验目标，再决定是否存在安全替代路径。",
+    "tensions": [
+      "字面颜色请求 vs 真正想避免的体验",
+      "立即覆暗 vs 保留未来可能"
+    ],
+    "must_solve": [
+      "回应真正的 avoided experience",
+      "所有可能性仍服从现场发质检查"
+    ],
+    "not_the_real_problem": [
+      "不是必须完成字面指定颜色"
+    ]
+  },
+  "underlying_need": {
+    "status": "anonymized_confirmed",
+    "priority": "high",
+    "stated_request": [
+      "用深色一劳永逸"
+    ],
+    "underlying_need": [
+      "未来不再经历黄橙褪色"
+    ],
+    "evidence": [
+      "真实案例中的替代判断围绕 avoided experience 建立，而非围绕字面颜色名称"
+    ]
+  },
+  "productive_constraints": {
+    "status": "anonymized_confirmed",
+    "items": [
+      {
+        "constraint": "对特定褪色色调的明确排斥",
+        "accepted_not_eliminated": true,
+        "converted_into": "后续色调路径的设计标准",
+        "safety_boundary": "只有现场检查确认后才讨论可行路径"
+      }
+    ]
+  },
+  "judgment": {
+    "status": "anonymized_confirmed",
+    "preserve": [
+      "未来改变的可能",
+      "访客真正想避免的体验"
+    ],
+    "explore": [
+      "在现场安全边界内开发非字面替代路径"
+    ],
+    "avoid": [
+      "将字面请求当作无条件操作命令",
+      "从历史相似性推断陌生访客可行性"
+    ],
+    "constraints": [
+      "既往染漂历史",
+      "avoided fade experience"
+    ],
+    "reasoning": [
+      "underlying need 比字面颜色更能定义设计问题"
+    ],
+    "supported_dimensions": [
+      "underlying_need",
+      "psychological_fit",
+      "hair_integrity",
+      "open_aesthetic_space",
+      "temporal_aesthetics"
+    ],
+    "supported_rule_ids": [
+      "public-rule-001",
+      "public-rule-002",
+      "public-rule-003",
+      "public-rule-004",
+      "public-rule-006"
+    ]
+  },
+  "design_moves": {
+    "status": "anonymized_confirmed",
+    "visual_strategy": [
+      {
+        "move_id": "develop_safe_alternative_instead_of_literal_cover",
+        "description_zh": "在现场确认后才探索非字面路径。",
+        "why": "字面颜色不是最终需求。"
+      }
+    ],
+    "placement_strategy": [],
+    "color_strategy": [
+      {
+        "move_id": "let_avoided_fade_define_direction",
+        "description_zh": "以想避免的褪色体验定义色调方向。",
+        "why": "回应长期体验。"
+      }
+    ],
+    "integrity_strategy": [
+      {
+        "move_id": "in_person_check_precedes_possibility",
+        "description_zh": "任何替代可能都必须在现场检查之后。",
+        "why": "历史案例不能替代发质诊断。"
+      }
+    ],
+    "temporal_strategy": [
+      {
+        "move_id": "design_for_future_fade_experience",
+        "description_zh": "把后续体验纳入当天判断。",
+        "why": "真正需求存在于时间中。"
+      }
+    ],
+    "identity_strategy": []
+  },
+  "hair_integrity": {
+    "status": "historical_only",
+    "known_risks": [
+      "历史案例存在区域差异"
+    ],
+    "uncertain_risks": [
+      "访客真实发质、区域损伤、色素沉淀和提浅能力"
+    ],
+    "acceptable_intervention": [
+      "仅指历史案例当时现场确认后的路径"
+    ],
+    "refused_intervention": [
+      "未检查就承诺技术结果"
+    ],
+    "stop_condition": [
+      "由现场专业评估决定"
+    ],
+    "alternative_created": [
+      "非字面、仍回应真正需求的设计路径"
+    ]
+  },
+  "identity_expression": {
+    "status": "partial",
+    "public_self": [],
+    "private_self": [],
+    "desired_visibility": [],
+    "tolerated_visibility": null,
+    "identity_boundary": [
+      "不接受黄橙褪色作为自我呈现"
+    ],
+    "boundary_change_since_previous_visit": []
+  },
+  "temporal_aesthetics": {
+    "status": "anonymized_confirmed",
+    "intended_evolution": [
+      "后续色调体验服务 underlying need"
+    ],
+    "actual_return_state": [],
+    "root_growth_behavior": [],
+    "fade_behavior": [
+      "完整实际轨迹未公开，不写成已确认事实"
+    ],
+    "maintenance_expectation": null,
+    "what_previous_design_enabled": [
+      "既有浅度在历史现场检查后成为设计材料"
+    ],
+    "future_options": [
+      "保留未来调整空间"
+    ]
+  },
+  "visual_result": {
+    "status": "generalized",
+    "color_family": [
+      "冷中性"
+    ],
+    "temperature": "cool-neutral",
+    "saturation": "low",
+    "contrast": "low",
+    "visual_intensity": "medium",
+    "distribution": [
+      "不公开具体分区"
+    ],
+    "silhouette": [],
+    "visual_tags": [
+      "underlying-need",
+      "future-fade"
+    ],
+    "summary_zh": "案例证明 SunSun 会先识别真正想避免的体验，而不是机械执行字面颜色。"
+  },
+  "media": {
+    "status": "not_included",
+    "images": []
+  },
+  "publication": {
+    "record": "public",
+    "client_story": "anonymized_only",
+    "face_images": "not_included",
+    "full_images": "not_included"
+  },
+  "provenance": {
+    "authority": "derived_from_sunsun_confirmed_record",
+    "review_status": "public_sample_derivative",
+    "inference_policy": "只概括已确认判断，不新增事实。"
+  },
+  "record_status": {
+    "decision_sufficient": true,
+    "technical_detail_optional": true,
+    "supported_judgment_scope": [
+      "underlying_need",
+      "psychological_fit",
+      "temporal_aesthetics"
+    ],
+    "blocking_unknowns": [],
+    "non_blocking_unknowns": [
+      "全部技术参数与私人叙事"
+    ]
+  }
+}

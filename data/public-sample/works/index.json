@@ -1,0 +1,10 @@
+{
+  "schema_version": "public-sample-v1",
+  "language": "zh-CN",
+  "records": [
+    {"work_id": "public-case-001", "client_id": "anonymous-journey-01", "intervention_number": 1, "path": "./public-case-001.json", "decision_sufficient": true},
+    {"work_id": "public-case-002", "client_id": "anonymous-journey-02", "intervention_number": 1, "path": "./public-case-002.json", "decision_sufficient": true},
+    {"work_id": "public-case-003", "client_id": "anonymous-journey-03", "intervention_number": 1, "path": "./public-case-003.json", "decision_sufficient": true},
+    {"work_id": "public-case-004", "client_id": "anonymous-journey-03", "intervention_number": 2, "path": "./public-case-004.json", "decision_sufficient": true}
+  ]
+}

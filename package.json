@@ -1,0 +1,18 @@
+{
+  "name": "the-mirror-webmcp",
+  "version": "1.0.0-rc.1",
+  "private": true,
+  "type": "module",
+  "description": "A WebMCP experiment in making professional judgment machine-readable.",
+  "scripts": {
+    "test": "node --test webmcp/tests/webmcp.test.mjs webmcp/tests/public-boundary.test.mjs",
+    "test:build": "sh webmcp/tests/public-build.test.sh",
+    "build": "sh build-public-release.sh",
+    "audit": "node scripts/public-release-audit.mjs",
+    "verify": "npm test && npm run test:build && npm run audit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MPL-2.0"
+}

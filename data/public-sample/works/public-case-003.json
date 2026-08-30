@@ -1,0 +1,321 @@
+{
+  "client_journey": {
+    "client_id": "anonymous-journey-03",
+    "intervention_number": 1,
+    "previous_work_id": null,
+    "next_work_id": "public-case-004",
+    "time_since_previous_intervention": null,
+    "what_previous_design_enabled": []
+  },
+  "context": {
+    "hair_context": {
+      "status": "not_published",
+      "current_base": [
+        "既往普通全头染历史"
+      ],
+      "previous_chemical_history": [
+        "未公开具体化学历史"
+      ],
+      "damaged_areas": [],
+      "new_growth": [],
+      "uneven_color": [],
+      "pigment_buildup": [],
+      "reusable_existing_lightness": [],
+      "known_risks": [],
+      "unknown_risks": [
+        "全部真实物理可行性必须现场评估"
+      ]
+    },
+    "life_context": {
+      "status": "anonymized_confirmed",
+      "work_environment": [
+        "工作状态不适合明显夸张发色"
+      ],
+      "wearing_habits": [
+        "工作时需要扎发",
+        "私人状态可披发"
+      ],
+      "maintenance_frequency": "低频维护",
+      "budget_constraint": null,
+      "visibility_constraint": [
+        "工作时克制",
+        "私人状态可明显"
+      ],
+      "return_frequency": "低频",
+      "lifestyle_limitations": [
+        "同一设计需服务工作与私人状态"
+      ]
+    },
+    "psychological_context": {
+      "status": "anonymized_confirmed",
+      "stated_request": [
+        "工作时不夸张，私下不想太普通"
+      ],
+      "underlying_need": [
+        "不在工作合规与个人表达之间二选一",
+        "自主控制颜色被看见的时机和强度"
+      ],
+      "desired_change": [
+        "从单一普通发色进入可切换可见性的设计"
+      ],
+      "desired_impression": [
+        "工作时克制",
+        "私下有趣"
+      ],
+      "wants_to_avoid": [
+        "工作状态过度明显",
+        "完全取消个性",
+        "频繁维护"
+      ],
+      "experimental_openness": "接受内外层与动态可见性。",
+      "visibility_tolerance": "工作时低，私人状态较高。",
+      "identity_concerns": [
+        "公共自我与私人自我都需要被承载"
+      ]
+    }
+  },
+  "design_problem": {
+    "status": "anonymized_confirmed",
+    "summary_zh": "工作时需要扎发且不能太夸张，私人状态又希望保留个性，同时不想频繁补染；设计必须让同一头发在不同状态呈现不同可见度。",
+    "tensions": [
+      "工作克制 vs 私人表达",
+      "扎发 vs 披发",
+      "强表达 vs 低频维护"
+    ],
+    "must_solve": [
+      "设计多状态可见性",
+      "不把两个真实自我简化为二选一"
+    ],
+    "not_the_real_problem": [
+      "不是简单选一个不夸张的颜色"
+    ]
+  },
+  "underlying_need": {
+    "status": "anonymized_confirmed",
+    "priority": "high",
+    "stated_request": [
+      "工作不明显、私下有个性"
+    ],
+    "underlying_need": [
+      "按社会情境控制个性可见度"
+    ],
+    "evidence": [
+      "历史设计明确区分扎发、披发、距离与移动状态"
+    ]
+  },
+  "productive_constraints": {
+    "status": "anonymized_confirmed",
+    "items": [
+      {
+        "constraint": "工作时需扎发且不能夸张",
+        "accepted_not_eliminated": true,
+        "converted_into": "自然深色表层与强色内层的多状态可见性结构",
+        "safety_boundary": "工作状态保持在访客当时的可见性容忍度内"
+      },
+      {
+        "constraint": "不愿频繁维护",
+        "accepted_not_eliminated": true,
+        "converted_into": "不以高频更新为前提的结构",
+        "safety_boundary": "未确认的褪色轨迹不写成事实"
+      }
+    ]
+  },
+  "judgment": {
+    "status": "anonymized_confirmed",
+    "preserve": [
+      "工作可接受度",
+      "私人表达",
+      "低频维护偏好"
+    ],
+    "explore": [
+      "表层与内层",
+      "扎发与披发",
+      "距离与移动的可见性"
+    ],
+    "avoid": [
+      "工作时大面积暴露",
+      "为了工作完全取消个性"
+    ],
+    "constraints": [
+      "工作时扎发",
+      "不能太夸张",
+      "低频维护"
+    ],
+    "reasoning": [
+      "可见性可以被连续设计，不是开关"
+    ],
+    "supported_dimensions": [
+      "psychological_fit",
+      "identity_expression",
+      "designed_visibility",
+      "invisible_detail",
+      "temporal_aesthetics",
+      "productive_constraints"
+    ],
+    "supported_rule_ids": [
+      "public-rule-004",
+      "public-rule-005",
+      "public-rule-007"
+    ]
+  },
+  "design_moves": {
+    "status": "anonymized_confirmed",
+    "visual_strategy": [
+      {
+        "move_id": "hide_expression_inside_work_compatible_structure",
+        "description_zh": "用克制表层承载更强内层。",
+        "why": "同一设计可在不同状态切换。"
+      }
+    ],
+    "placement_strategy": [
+      {
+        "move_id": "place_expression_below_surface",
+        "description_zh": "将较强表达放在可随动作显现的内层。",
+        "why": "分离视觉强度与公共可见度。"
+      },
+      {
+        "move_id": "add_close_range_detail",
+        "description_zh": "增加靠近或移动才出现的小细节。",
+        "why": "让发现方式匹配身份边界。"
+      }
+    ],
+    "color_strategy": [
+      {
+        "move_id": "use_hidden_contrast",
+        "description_zh": "以深色表层与较强内层建立隐藏对比。",
+        "why": "不同状态拥有不同读取。"
+      }
+    ],
+    "integrity_strategy": [
+      {
+        "move_id": "keep_identity_fit_separate_from_physical_feasibility",
+        "description_zh": "身份判断不替代现场发质检查。",
+        "why": "公开案例不提供技术可复制性。"
+      }
+    ],
+    "temporal_strategy": [
+      {
+        "move_id": "design_for_infrequent_return",
+        "description_zh": "将低频回访作为初始条件。",
+        "why": "结构不依赖高频维护才成立。"
+      }
+    ],
+    "identity_strategy": [
+      {
+        "move_id": "separate_public_and_private_visibility_states",
+        "description_zh": "把公共克制与私人表达分配到不同可见状态。",
+        "why": "两个自我都是真实需求。"
+      }
+    ]
+  },
+  "hair_integrity": {
+    "status": "unknown",
+    "known_risks": [],
+    "uncertain_risks": [
+      "实际发质、旧染层、分区承受力"
+    ],
+    "acceptable_intervention": [
+      "公开记录只确认身份与可见性判断"
+    ],
+    "refused_intervention": [
+      "根据图片或自述推断可行性"
+    ],
+    "stop_condition": [
+      "必须由现场评估决定"
+    ],
+    "alternative_created": [
+      "多状态身份与可见性结构"
+    ]
+  },
+  "identity_expression": {
+    "status": "anonymized_confirmed",
+    "public_self": [
+      "工作时克制"
+    ],
+    "private_self": [
+      "私人状态有趣、有个性"
+    ],
+    "desired_visibility": [
+      "扎发时低",
+      "披发时高",
+      "靠近或移动时出现细节"
+    ],
+    "tolerated_visibility": "初次工作状态容忍度接近低可见。",
+    "identity_boundary": [
+      "工作不超过明显边界",
+      "私人状态不因工作限制而被取消"
+    ],
+    "boundary_change_since_previous_visit": []
+  },
+  "temporal_aesthetics": {
+    "status": "anonymized_partial",
+    "intended_evolution": [
+      "设计在低频维护下仍有结构价值"
+    ],
+    "actual_return_state": [
+      "后续真实回访显示心理可见性边界发生变化"
+    ],
+    "root_growth_behavior": [
+      "不公开具体外观"
+    ],
+    "fade_behavior": [
+      "不公开未确认轨迹"
+    ],
+    "maintenance_expectation": "低频",
+    "what_previous_design_enabled": [
+      "建立公共与私人可见性的实际体验基线"
+    ],
+    "future_options": [
+      "后续可随心理边界渐进调整"
+    ]
+  },
+  "visual_result": {
+    "status": "generalized",
+    "color_family": [
+      "自然深色",
+      "隐藏强色"
+    ],
+    "temperature": "not_material",
+    "saturation": "state-dependent",
+    "contrast": "hidden-high-contrast",
+    "visual_intensity": "low-to-high",
+    "distribution": [
+      "表层／内层／近距离细节"
+    ],
+    "silhouette": [],
+    "visual_tags": [
+      "designed-visibility",
+      "identity-boundary",
+      "low-maintenance"
+    ],
+    "summary_zh": "案例证明 SunSun 会把工作限制转化为可切换的可见性结构，而不是要求访客在合规与个性之间二选一。"
+  },
+  "media": {
+    "status": "not_included",
+    "images": []
+  },
+  "publication": {
+    "record": "public",
+    "client_story": "anonymized_only",
+    "face_images": "not_included",
+    "full_images": "not_included"
+  },
+  "provenance": {
+    "authority": "derived_from_sunsun_confirmed_record",
+    "review_status": "public_sample_derivative",
+    "inference_policy": "只概括已确认判断，不新增事实。"
+  },
+  "record_status": {
+    "decision_sufficient": true,
+    "technical_detail_optional": true,
+    "supported_judgment_scope": [
+      "identity_expression",
+      "designed_visibility",
+      "temporal_aesthetics"
+    ],
+    "blocking_unknowns": [],
+    "non_blocking_unknowns": [
+      "全部真实物理发况、技术参数、私人叙事和素材"
+    ]
+  }
+}

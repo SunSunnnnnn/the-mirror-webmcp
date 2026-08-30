@@ -1,0 +1,21 @@
+{
+  "dataset_id": "sunsun-design-judgment-public-sample-v1",
+  "version": "public-sample-v1",
+  "language": "zh-CN",
+  "ip_classification": "public_sample_dataset",
+  "license": "CC-BY-4.0",
+  "attribution": "SunSun Design Judgment Dataset — Public Sample, by SunSun Wong",
+  "status": "public_sample_release_candidate",
+  "case_count": 4,
+  "public_rule_count": 8,
+  "media_count": 0,
+  "entries": {
+    "works": "./works/index.json",
+    "public_rules": "./rules/public-judgment-rules.json",
+    "remote_physical_uncertainty_boundary": "./boundaries/remote-physical-uncertainty.json",
+    "uncertainty_taxonomy": "./boundaries/uncertainty-taxonomy.json",
+    "concern_vocabulary": "./vocabulary/concerns.json",
+    "tool_contracts": "./tools/index.json"
+  },
+  "decision_model": "Context → Design Problem → Judgment → Design Moves → Evolution"
+}

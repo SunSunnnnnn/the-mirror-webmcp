@@ -1,0 +1,18 @@
+{
+  "name": "get_work_details",
+  "status": "public_sample_mvp",
+  "read_only": true,
+  "purpose": "Explain the judgment chain of one anonymized public sample case.",
+  "input_schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Get Public Sample Case Details",
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["work_id"],
+    "properties": {
+      "work_id": {"type": "string", "pattern": "^public-case-[0-9]{3}$"},
+      "consumer_scope": {"type": "string", "enum": ["public_safe", "consultation_safe"], "default": "public_safe"}
+    }
+  },
+  "output_schema": {"type": "object", "required": ["work_id", "context", "underlying_need", "design_problem", "judgment", "design_moves", "unknowns", "historical_case_disclaimer", "requires_in_person_assessment", "cannot_conclude_remotely"]}
+}
