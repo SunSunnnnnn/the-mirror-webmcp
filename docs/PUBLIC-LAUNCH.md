@@ -45,12 +45,36 @@ Expected conclusion:
 
 > “SunSun has previously designed around the same tension between professional visibility and private self-expression. Your actual hair condition and technical plan still require an in-person assessment.”
 
-## Suggested launch post
+## Final launch copy
 
-### GitHub / community / LinkedIn
+### 1. WebMCP / developer community
 
-Introducing The Mirror: a WebMCP experiment in making professional judgment machine-readable. AI can already find portfolios, reviews, prices, and services—but it rarely sees how a professional makes decisions. The Mirror gives agents four read-only tools for inspecting anonymized evidence of how hairstylist SunSun Wong reasons about constraints, underlying needs, identity, visibility, maintenance, and long-term evolution. It deliberately does not diagnose hair or prescribe a technical result remotely. Built in Guangzhou as an independent experiment inspired by the WebMCP Challenge prompt. Demo: https://the-mirror-webmcp.netlify.app/ Source: https://github.com/SunSunnnnnn/the-mirror-webmcp
+The Mirror is a WebMCP experiment in making professional judgment machine-readable. Most professional-service websites expose outcomes, services, prices, and reviews. They rarely expose the reasoning that produced an outcome.
 
-### X / short social copy
+This project gives an agent four read-only tools for inspecting anonymized evidence of how hairstylist SunSun Wong has reasoned about real constraints: the need behind a literal request, work and identity boundaries, maintenance, hair integrity, and long-term evolution. The agent can explore stylist fit, inspect one judgment chain, and prepare a pre-consultation intent brief. It cannot diagnose hair remotely, promise feasibility, or derive a technical formula from a historical case.
 
-The Mirror is a WebMCP experiment that lets AI inspect how a professional makes judgments—not just what they sell. Four read-only tools, an anonymized public sample, and a hard boundary against remote diagnosis. Built in Guangzhou. https://the-mirror-webmcp.netlify.app/
+Live: https://the-mirror-webmcp.netlify.app/
+
+Source: https://github.com/SunSunnnnnn/the-mirror-webmcp
+
+### 2. General professional / creative audience
+
+When AI helps someone find a professional, it can see portfolios, reviews, prices, and services. But those signals do not explain how the person makes decisions when the real situation is uncertain, constrained, or emotionally complicated.
+
+The Mirror is a small experiment built from the work of hairstylist SunSun Wong. Instead of recommending a hairstyle, it lets an AI inspect evidence of how she has understood underlying needs, protected future options, designed around work and identity, and turned limitations into part of the design. The goal is not to replace consultation. It is to help someone understand why a particular professional may be worth consulting.
+
+Live: https://the-mirror-webmcp.netlify.app/
+
+### 3. 中文社交帖
+
+我是一个染发师，但最近我一直在想一个和发色无关的问题：当 AI 帮人寻找专业人士时，它凭什么判断这个人值不值得信任？
+
+作品照片能展示结果，评价能描述满意度，价格表能说明服务，却很难告诉 AI：面对受损、预算、工作环境、身份表达和模糊需求时，这个专业人士保护了什么、拒绝了什么，又为什么选择另一条设计路径。
+
+所以我做了 The Mirror。它不是 AI 发型推荐，也不是线上诊断工具。它把一小部分匿名真实案例整理成可查询的“判断证据”，让 AI 看见我如何理解客户没有直接说出的需求，如何把可见度、维护周期和长期变化纳入设计，以及为什么历史案例不能直接变成另一个人的技术模板。
+
+我想测试的是一种新的专业发现方式：未来 AI 帮我们找设计师、顾问或其他高判断力专业人士时，除了看他们卖什么，能不能也理解他们如何思考。
+
+在线体验：https://the-mirror-webmcp.netlify.app/
+
+项目源码：https://github.com/SunSunnnnnn/the-mirror-webmcp

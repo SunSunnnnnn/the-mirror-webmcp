@@ -1,4 +1,12 @@
-# The Mirror — 2–3 Minute Demo Script
+# The Mirror — Frozen Final Demo
+
+The authoritative recording package is now:
+
+- [`FINAL-VOICEOVER.md`](./FINAL-VOICEOVER.md) — locked narration;
+- [`VIDEO-SHOT-LIST.md`](./VIDEO-SHOT-LIST.md) — timing, actions, fields, and recording cautions;
+- [`DEMO-RELIABILITY.md`](./DEMO-RELIABILITY.md) — five-run production verification.
+
+Target runtime: **2:46**. The scenario and three-call journey below remain frozen.
 
 ## 0:00–0:20 — Problem
 
@@ -14,7 +22,7 @@ Show The Mirror title and the product line: “A WebMCP experiment in making pro
 
 Enter the visitor scenario:
 
-> “I need to wear my hair up at work and can't look too dramatic, but outside work I don't want to feel boring. I also don't want frequent maintenance.”
+> “I need to wear my hair up at work and can't look too dramatic, but outside work I don't want to feel boring. I also don't want frequent maintenance. Can you help me decide whether this stylist might understand what I'm looking for?”
 
 Call `explore_stylist_fit`.
 
@@ -36,11 +44,9 @@ Show the uncertainty statement.
 
 “The Mirror cannot verify actual hair integrity, chemical history, pigment buildup, or achievable lift from a remote conversation. Historical cases prove how SunSun has reasoned before; they do not prove that another person can reproduce the same result.”
 
-## 2:40–3:00 — The Mirror thesis
+## 2:38–2:50 — The Mirror thesis
 
 “The Mirror is a small experiment with a larger question: when an agent helps someone discover a high-judgment professional, could compatibility with that professional's way of thinking become a new signal?”
-
-Ending candidates for Supervisor selection:
 
 > The Mirror doesn't choose your hair. It reveals how the stylist thinks.
 
