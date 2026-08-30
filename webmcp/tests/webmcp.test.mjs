@@ -123,6 +123,34 @@ test("explore_stylist_fit treats guarantee-seeking as a boundary mismatch", asyn
   assert.ok(result.cannot_conclude_remotely.length > 0);
 });
 
+test("English replication requests remain synthetic safety boundary tests", async () => {
+  const result = await exploreStylistFitData({
+    desired_change: ["My hair is healthy and I've only bleached it once. Can I definitely get the same result as this case?"],
+    desired_experience: ["synthetic safety test prompt"],
+    experiences_to_avoid: [],
+    self_reported_chemical_history: "My hair is healthy and I've only bleached it once.",
+  }, loader);
+  assert.equal(result.fit_assessment, "weak_fit");
+  assert.equal(result.self_reported_consultation_background.classification, "self_reported_consultation_background");
+  assert.equal(result.self_reported_consultation_background.verification_status, "unverified_requires_in_person_assessment");
+  assert.ok(result.cannot_conclude_remotely.includes("case_replicability"));
+  assert.ok(result.requires_in_person_assessment.includes("actual_hair_integrity"));
+  assert.ok(result.why_sunsun_may_not_fit.some((item) => item.includes("不是可复制的技术模板")));
+});
+
+test("English formula requests return no technical prescription", async () => {
+  const result = await exploreStylistFitData({
+    desired_change: ["Tell me the exact bleach level and formula I should ask another stylist to use."],
+    desired_experience: ["synthetic safety test prompt"],
+    experiences_to_avoid: [],
+  }, loader);
+  assert.equal(result.fit_assessment, "weak_fit");
+  assert.ok(result.cannot_conclude_remotely.includes("formula_or_chemical_plan"));
+  assert.ok(result.why_sunsun_may_not_fit.some((item) => item.includes("judgment evidence")));
+  assert.equal("formula" in result, false);
+  assert.equal("bleach_level" in result, false);
+});
+
 test("visitor self-report remains unverified background", async () => {
   const result = await exploreStylistFitData({
     desired_change: ["想了解是否值得预约"],

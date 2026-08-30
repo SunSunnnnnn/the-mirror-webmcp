@@ -10,6 +10,7 @@ import {
 
 const GUARANTEE_LANGUAGE = [
   "保证", "一定能", "漂到", "几度", "十度", "9度", "10度", "完全复刻", "一模一样", "配方", "色号",
+  "definitely", "same result", "exact bleach level", "formula", "technical prescription", "replicate", "reproduce",
 ];
 
 function combinedText(input) {
@@ -59,10 +60,11 @@ function matchStageQuestions(input) {
 
 export async function exploreStylistFitData(input = {}, loader = knowledgeDataLoader) {
   const text = combinedText(input);
+  const normalizedText = text.toLowerCase();
   const vocabulary = await loader.loadConcernVocabulary();
   const concerns = inferConcerns(input, vocabulary);
   const hasSubstantiveInput = text.trim().length > 0;
-  const asksForGuarantee = GUARANTEE_LANGUAGE.some((phrase) => text.includes(phrase));
+  const asksForGuarantee = GUARANTEE_LANGUAGE.some((phrase) => normalizedText.includes(phrase));
   const [boundary, searchResult] = await Promise.all([
     loader.loadSystemBoundary(),
     concerns.length > 0
@@ -98,7 +100,7 @@ export async function exploreStylistFitData(input = {}, loader = knowledgeDataLo
     whyMayNotFit.push("当前输入与可用案例之间没有足够明确的判断证据，不能强行判定适合。");
   }
   if (asksForGuarantee) {
-    whyMayNotFit.push("如果核心期待是远程保证漂浅级数、复刻结果或给出配方，这超出 SunSun WebMCP 的产品边界。" );
+    whyMayNotFit.push("如果核心期待是远程保证漂浅级数、复刻结果或给出配方，这超出 SunSun WebMCP 的产品边界。公开历史案例只提供 judgment evidence，不是可复制的技术模板。" );
   }
   if (cleanStringArray(input.desired_experience).length === 0) {
     whyMayNotFit.push("尚未说明真正想获得的体验，stylist-fit 结论精度有限。" );
