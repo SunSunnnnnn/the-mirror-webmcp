@@ -6,6 +6,12 @@ The goal is not to help a visitor find a hairstyle. The goal is to help a visito
 
 WebMCP does not replace consultation. It makes consultation worth happening.
 
+## Live Demo
+
+Explore the public experiment at [the-mirror-webmcp.netlify.app](https://the-mirror-webmcp.netlify.app/).
+
+Source and the anonymized public sample are available in the [public GitHub repository](https://github.com/SunSunnnnnn/the-mirror-webmcp).
+
 ## The problem
 
 AI can already find portfolios, reviews, prices, and services. It usually cannot inspect **how a professional makes decisions**.

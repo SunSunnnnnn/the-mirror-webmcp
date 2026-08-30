@@ -1,11 +1,11 @@
 # The Mirror — Public Launch Kit
 
-Preparation only. Nothing in this document has been published.
+Public infrastructure is live. Social launch materials remain unpublished.
 
 ## Public assets
 
-- Live URL: `[placeholder]`
-- GitHub repository: `[placeholder]`
+- Live URL: [https://the-mirror-webmcp.netlify.app/](https://the-mirror-webmcp.netlify.app/)
+- GitHub repository: [https://github.com/SunSunnnnnn/the-mirror-webmcp](https://github.com/SunSunnnnnn/the-mirror-webmcp)
 - YouTube demo: `[placeholder]`
 
 ## One-sentence pitch
@@ -49,8 +49,8 @@ Expected conclusion:
 
 ### GitHub / community / LinkedIn
 
-Introducing The Mirror: a WebMCP experiment in making professional judgment machine-readable. AI can already find portfolios, reviews, prices, and services—but it rarely sees how a professional makes decisions. The Mirror gives agents four read-only tools for inspecting anonymized evidence of how hairstylist SunSun Wong reasons about constraints, underlying needs, identity, visibility, maintenance, and long-term evolution. It deliberately does not diagnose hair or prescribe a technical result remotely. Built in Guangzhou as an independent experiment inspired by the WebMCP Challenge prompt. Source, public sample, and demo links: `[add links before publishing]`.
+Introducing The Mirror: a WebMCP experiment in making professional judgment machine-readable. AI can already find portfolios, reviews, prices, and services—but it rarely sees how a professional makes decisions. The Mirror gives agents four read-only tools for inspecting anonymized evidence of how hairstylist SunSun Wong reasons about constraints, underlying needs, identity, visibility, maintenance, and long-term evolution. It deliberately does not diagnose hair or prescribe a technical result remotely. Built in Guangzhou as an independent experiment inspired by the WebMCP Challenge prompt. Demo: https://the-mirror-webmcp.netlify.app/ Source: https://github.com/SunSunnnnnn/the-mirror-webmcp
 
 ### X / short social copy
 
-The Mirror is a WebMCP experiment that lets AI inspect how a professional makes judgments—not just what they sell. Four read-only tools, an anonymized public sample, and a hard boundary against remote diagnosis. Built in Guangzhou. `[add link before publishing]`
+The Mirror is a WebMCP experiment that lets AI inspect how a professional makes judgments—not just what they sell. Four read-only tools, an anonymized public sample, and a hard boundary against remote diagnosis. Built in Guangzhou. https://the-mirror-webmcp.netlify.app/
