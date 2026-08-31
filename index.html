@@ -40,6 +40,9 @@
     blockquote { margin: 1.25rem 0; padding-left: 1.25rem; border-left: 3px solid var(--accent); color: var(--muted); font-size: 1.1rem; }
     .boundary { margin-top: 2rem; color: var(--ink); }
     footer { padding: 1.5rem 0 2.5rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
+    .project-note { max-width: 48rem; margin: 0 0 1.25rem; }
+    .project-note strong { color: var(--ink); font-weight: 650; }
+    .footer-meta { margin: 0; }
     @media (max-width: 42rem) {
       .tools { grid-template-columns: 1fr; }
       header { align-items: flex-start; gap: 1rem; }
@@ -80,7 +83,8 @@
     </section>
   </main>
   <footer>
-    The Mirror · Software under MPL-2.0 · Public sample data under CC BY 4.0
+    <p class="project-note"><strong>Project note</strong><br>Built in Guangzhou in response to the <a href="https://webmcp.devpost.com/rules">WebMCP Challenge</a> prompt and published independently because the creator is not eligible for official submission under the Challenge's residency rules.</p>
+    <p class="footer-meta">The Mirror · Software under MPL-2.0 · Public sample data under CC BY 4.0</p>
   </footer>
   <script type="module" src="./webmcp/register-tools.js"></script>
   <script type="module">

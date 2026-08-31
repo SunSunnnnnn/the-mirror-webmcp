@@ -8,6 +8,10 @@ Public infrastructure and the final demo are live. Social launch materials remai
 - GitHub repository: [https://github.com/SunSunnnnnn/the-mirror-webmcp](https://github.com/SunSunnnnnn/the-mirror-webmcp)
 - YouTube demo: [https://youtu.be/mg1tr0RqEpQ](https://youtu.be/mg1tr0RqEpQ)
 
+## Origin wording
+
+Originally built in response to the WebMCP Challenge prompt and published independently because the creator is not eligible for official submission under the Challenge's residency rules.
+
 ## One-sentence pitch
 
 The Mirror lets AI agents inspect how a professional makes judgments, not just what they sell.
@@ -26,7 +30,7 @@ The safety boundary is central to the product. A visitor at home cannot reliably
 
 The repository contains four read-only WebMCP tools, four anonymized public sample cases, eight public judgment rules, and explicit uncertainty boundaries. It does not contain the complete proprietary SunSun Design Knowledge Layer or client media.
 
-Built in Guangzhou as an independent experiment inspired by the WebMCP Challenge prompt, The Mirror asks a broader question: could judgment compatibility become a useful signal when agents help people discover high-judgment professionals?
+Originally built in response to the WebMCP Challenge prompt and published independently because the creator is not eligible for official submission under the Challenge's residency rules, The Mirror asks a broader question: could judgment compatibility become a useful signal when agents help people discover high-judgment professionals?
 
 ## Demo story
 

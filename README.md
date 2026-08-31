@@ -12,6 +12,10 @@ Explore the public experiment at [the-mirror-webmcp.netlify.app](https://the-mir
 
 Source and the anonymized public sample are available in the [public GitHub repository](https://github.com/SunSunnnnnn/the-mirror-webmcp).
 
+## Origin
+
+The Mirror was originally built in response to the [WebMCP Challenge](https://webmcp.devpost.com/rules) prompt. Because its creator is based in Guangzhou, China, it is not eligible for official submission under the Challenge's residency rules. It is therefore published independently as an open WebMCP experiment.
+
 ## Demo Video
 
 Watch the final public demo: [The Mirror — Making Professional Judgment Machine-Readable with WebMCP](https://youtu.be/mg1tr0RqEpQ).

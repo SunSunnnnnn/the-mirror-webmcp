@@ -10,6 +10,7 @@
 - Published platforms: YouTube and GitHub
 - Launch copy used: YouTube long description; developer, professional, and Chinese launch copy remain prepared but unpublished
 - Known feedback: final human-voice publication master approved by Supervisor; live WebMCP sequence, safety boundary, captions, and audio/video sync passed review
+- Added public clarification that The Mirror was developed in response to the WebMCP Challenge prompt but is independently published because the creator is not eligible for official submission under the Challenge's residency rules.
 
 ## Follow-up questions worth tracking
 
